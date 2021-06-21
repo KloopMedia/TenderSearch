@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/TenderSearch/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/TenderSearch/static/js/main.28750d04.chunk.js",
+    "main.js.map": "/TenderSearch/static/js/main.28750d04.chunk.js.map",
+    "runtime-main.js": "/TenderSearch/static/js/runtime-main.4fff0072.js",
+    "runtime-main.js.map": "/TenderSearch/static/js/runtime-main.4fff0072.js.map",
+    "static/js/2.3dd07243.chunk.js": "/TenderSearch/static/js/2.3dd07243.chunk.js",
+    "static/js/2.3dd07243.chunk.js.map": "/TenderSearch/static/js/2.3dd07243.chunk.js.map",
+    "static/js/3.b22b0d6b.chunk.js": "/TenderSearch/static/js/3.b22b0d6b.chunk.js",
+    "static/js/3.b22b0d6b.chunk.js.map": "/TenderSearch/static/js/3.b22b0d6b.chunk.js.map",
+    "index.html": "/TenderSearch/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/TenderSearch/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.3dd07243.chunk.js.LICENSE.txt": "/TenderSearch/static/js/2.3dd07243.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4fff0072.js",
+    "static/js/2.3dd07243.chunk.js",
+    "static/css/main.9d5b29c0.chunk.css",
+    "static/js/main.28750d04.chunk.js"
+  ]
+}
