@@ -62,10 +62,6 @@ const MyInstantSearch = () => {
 					<h2 className={classes.header}>Procurement Method</h2>
 					<RefinementList attribute="procurement_method"/>
 				</div>
-				<div>
-					<h2 className={classes.header}>Procuring Entity</h2>
-					<RefinementList attribute="procuring_entity"/>
-				</div>
 			</div>
 			<SearchBox/>
 			<Hits hitComponent={Hit}/>
