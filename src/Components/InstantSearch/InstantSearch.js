@@ -53,20 +53,20 @@ const MyInstantSearch = () => {
 
 	return (
 		<InstantSearch searchClient={searchClient} indexName={IndexName}>
-			{/*<div className={classes.container}>
+			<div className={classes.container}>
 				<div>
-					<h2 className={classes.header}>objectID</h2>
-					<RefinementList attribute="objectID"/>
+					<h2 className={classes.header}>Procurement Format</h2>
+					<RefinementList attribute="procurement_format"/>
 				</div>
 				<div>
-					<h2 className={classes.header}>number</h2>
-					<RefinementList attribute="number"/>
+					<h2 className={classes.header}>Procurement Method</h2>
+					<RefinementList attribute="procurement_method"/>
 				</div>
 				<div>
-					<h2 className={classes.header}>status</h2>
-					<RefinementList attribute="status"/>
+					<h2 className={classes.header}>Procuring Entity</h2>
+					<RefinementList attribute="procuring_entity"/>
 				</div>
-			</div>*/}
+			</div>
 			<SearchBox/>
 			<Hits hitComponent={Hit}/>
 				<Pagination/>
