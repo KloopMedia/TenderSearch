@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/TenderSearch/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/TenderSearch/static/js/main.fd62da7c.chunk.js",
-    "main.js.map": "/TenderSearch/static/js/main.fd62da7c.chunk.js.map",
+    "main.js": "/TenderSearch/static/js/main.42d34692.chunk.js",
+    "main.js.map": "/TenderSearch/static/js/main.42d34692.chunk.js.map",
     "runtime-main.js": "/TenderSearch/static/js/runtime-main.3d790201.js",
     "runtime-main.js.map": "/TenderSearch/static/js/runtime-main.3d790201.js.map",
-    "static/js/2.21b48f63.chunk.js": "/TenderSearch/static/js/2.21b48f63.chunk.js",
-    "static/js/2.21b48f63.chunk.js.map": "/TenderSearch/static/js/2.21b48f63.chunk.js.map",
+    "static/js/2.c50437ec.chunk.js": "/TenderSearch/static/js/2.c50437ec.chunk.js",
+    "static/js/2.c50437ec.chunk.js.map": "/TenderSearch/static/js/2.c50437ec.chunk.js.map",
     "static/js/3.7a3c041e.chunk.js": "/TenderSearch/static/js/3.7a3c041e.chunk.js",
     "static/js/3.7a3c041e.chunk.js.map": "/TenderSearch/static/js/3.7a3c041e.chunk.js.map",
     "index.html": "/TenderSearch/index.html",
     "static/css/main.9d5b29c0.chunk.css.map": "/TenderSearch/static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.21b48f63.chunk.js.LICENSE.txt": "/TenderSearch/static/js/2.21b48f63.chunk.js.LICENSE.txt"
+    "static/js/2.c50437ec.chunk.js.LICENSE.txt": "/TenderSearch/static/js/2.c50437ec.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.3d790201.js",
-    "static/js/2.21b48f63.chunk.js",
+    "static/js/2.c50437ec.chunk.js",
     "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.fd62da7c.chunk.js"
+    "static/js/main.42d34692.chunk.js"
   ]
 }
