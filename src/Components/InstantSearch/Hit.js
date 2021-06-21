@@ -1,5 +1,8 @@
 import {makeStyles} from "@material-ui/core";
 import ReactJsonPrint from 'react-json-print'
+import {Hits, Highlight, CustomHighlight} from 'react-instantsearch-dom';
+import HitHighlitght from "./HitHighlitght";
+import HitHighlight from "./HitHighlitght";
 
 const useStyles = makeStyles((theme) => ({
 	link: {
@@ -29,13 +32,14 @@ const useStyles = makeStyles((theme) => ({
 
 const Hit = (props) => {
 	const classes = useStyles()
-	const JSONPrettyMon = require('react-json-pretty/dist/monikai');
-	let item = props.hit
-	console.log(item)
+	const hit = props.hit
+	console.log(hit)
+
 
 	return (
 		<div style={{paddingTop: 50, textAlign: "left"}}>
-			<ReactJsonPrint dataObject={item}/>
+			<ReactJsonPrint dataObject={hit}/>
+
 		</div>
 	);
 }

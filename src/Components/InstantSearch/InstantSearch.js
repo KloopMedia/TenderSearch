@@ -9,6 +9,7 @@ import {
 	Configure,
 } from 'react-instantsearch-dom';
 import algoliasearch from 'algoliasearch';
+import HitHighlight from "./HitHighlitght.js";
 import Hit from "./Hit";
 import {makeStyles} from "@material-ui/core";
 
@@ -50,7 +51,6 @@ const useStyles = makeStyles((theme) => ({
 }));
 const MyInstantSearch = () => {
 	const classes = useStyles()
-
 	return (
 		<InstantSearch searchClient={searchClient} indexName={IndexName}>
 			<div className={classes.container}>
@@ -64,7 +64,8 @@ const MyInstantSearch = () => {
 				</div>
 			</div>
 			<SearchBox/>
-			<Hits hitComponent={Hit}/>
+			<Hits hitComponent={HitHighlight} />
+			{/*<Hits hitComponent={Hit} />*/}
 				<Pagination/>
 		</InstantSearch>
 	);
